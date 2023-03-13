@@ -36,7 +36,7 @@ function generatePassword() {
     return generatePassword();
   }
   
-  if(passwordLength < 8 || passwordLength > 128) {
+  if (passwordLength < 8 || passwordLength > 128) {
     alert("Please enter a number between 8 and 128.")
     return generatePassword();
   }
