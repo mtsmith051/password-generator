@@ -1,8 +1,6 @@
 // Assignment Code
-var generateBtn = document.querySelector("#generate");
-var between = (x, min, max) => {
-  return x >= min && x <= max
-}
+var generateBtn = document.querySelector("#generate"); 
+
 
 var uCaseChars = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'];
 var lCaseChars = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'];
@@ -15,17 +13,15 @@ function writePassword() {
   var passwordText = document.querySelector("#password");
 
   passwordText.value = password;
-
-}
+}   
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
 
 
-  
 function generatePassword() {
 
-  var passwordLength = prompt("Choose a password length bewteen 8 and 128?");
+  var passwordLength = prompt("Choose a password length between 8 and 128?");
   
   if (!passwordLength) return "No Password";
 
@@ -78,5 +74,11 @@ function generatePassword() {
   }
 
   console.log(lCaseChars)
+
+  function getRndInteger(min, max) {
+    return Math.floor(Math.random() * (max - min) ) + min;
+  }
   
 }
+
+
