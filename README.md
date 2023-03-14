@@ -4,9 +4,9 @@
 This project is a password-generator that will provide a randomly produced set of characters based on parameters that the user provides. I.e. Length (8-128 chars), Uppercase Letters, Lowercase Letters, Special Characters, and Numbers.
 
 ## Table of Contents
-* Usage
-* Links
-* Features
+- [Usage](#usage)
+- [Links](#links)
+- [Features](#features)
 
 ## Usage
 ![alt text](./Assets/images/Password-length-selection.png)
@@ -19,6 +19,7 @@ This project is a password-generator that will provide a randomly produced set o
 ## Links
 
 GitHub: https://github.com/mtsmith051/password-generator
+
 Deployed Website: https://mtsmith051.github.io/password-generator/
 
 ## Features
